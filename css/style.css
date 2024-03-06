@@ -61,20 +61,14 @@ section {
     
 }
 
-/* Styling Image Container */
-.image-container {
-    position: relative;
-    opacity: 0,5;
-}
 
 .image-text {
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
     text-align: center;
     color: white;
-    z-index: 1; 
 }
 
 .image-text h2 {
@@ -143,7 +137,3 @@ section ul li img {
     width: 1%;
     height: 2%;
 }
-
-
-
-
